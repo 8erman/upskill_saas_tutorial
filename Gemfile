@@ -38,7 +38,10 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 # Use Bootsrap framework for front-end UI and layout"
-gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap-sass', '3.3.7' 
+
+# Use Font Awesome sass gem for adding icons
+gem 'font-awesome-rails', '4.7.0.8' 
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
